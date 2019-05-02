@@ -68,6 +68,7 @@
         </li>
         <li class="nav-item" v-if="currentUser.username">
           <router-link
+            data-cy="HeaderProfileLink"
             class="nav-link"
             active-class="active"
             exact

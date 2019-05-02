@@ -7,6 +7,7 @@
     </router-link>
     <div class="info">
       <router-link
+        data-cy="ArticlePreviewAuthor"
         :to="{ name: 'profile', params: { username: article.author.username } }"
         class="author"
       >

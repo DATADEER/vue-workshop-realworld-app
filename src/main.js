@@ -20,8 +20,10 @@ router.beforeEach((to, from, next) =>
   Promise.all([store.dispatch(CHECK_AUTH)]).then(next)
 );
 
-new Vue({
+const app = new Vue({
   router,
   store,
   render: h => h(App)
 }).$mount("#app");
+
+window.app = app;

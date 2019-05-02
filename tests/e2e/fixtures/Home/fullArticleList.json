@@ -1,0 +1,175 @@
+{
+  "articles": [
+    {
+      "title": "FIRST_PREVIEW_TITLE",
+      "slug": "test-title-1egcc5",
+      "body": "FIRST_PREVIEW_DESCRIPTION_BODY",
+      "createdAt": "2019-05-02T06:56:30.859Z",
+      "updatedAt": "2019-05-02T06:56:30.859Z",
+      "tagList": ["training", "japan"],
+      "description": "FIRST_PREVIEW_DESCRIPTION",
+      "author": {
+        "username": "TEST_USER",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "One day In Japan",
+      "slug": "test-ql4xpo",
+      "body": "test",
+      "createdAt": "2019-05-02T06:37:39.347Z",
+      "updatedAt": "2019-05-02T06:37:39.347Z",
+      "tagList": ["japan"],
+      "description": "test ",
+      "author": {
+        "username": "sasidhar",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "Vue-Test-Article",
+      "slug": "Vue-test-article-yv5gnp",
+      "body": "Vue is great",
+      "createdAt": "2019-05-02T06:03:40.124Z",
+      "updatedAt": "2019-05-02T06:03:40.124Z",
+      "tagList": [],
+      "description": "angular",
+      "author": {
+        "username": "aschuettler",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "A bird in the sky",
+      "slug": "a-bird-in-the-sky-qyccm0",
+      "body": " sklsd klmk klmmklsd llmmklmklm",
+      "createdAt": "2019-05-02T05:49:32.814Z",
+      "updatedAt": "2019-05-02T05:49:32.814Z",
+      "tagList": [],
+      "description": "about bird",
+      "author": {
+        "username": "ajit12",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "fasfafa",
+      "slug": "fasfafa-1wgrtw",
+      "body": "fafaf",
+      "createdAt": "2019-05-02T04:19:48.333Z",
+      "updatedAt": "2019-05-02T04:19:48.333Z",
+      "tagList": [],
+      "description": "fafa",
+      "author": {
+        "username": "a12345678_9",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "ttttitle",
+      "slug": "ttttitle-r8zvqq",
+      "body": "tttcontent",
+      "createdAt": "2019-05-02T01:47:34.246Z",
+      "updatedAt": "2019-05-02T01:47:34.246Z",
+      "tagList": [],
+      "description": "tttabout",
+      "author": {
+        "username": "carvin_lo",
+        "bio": null,
+        "image": "https://github.githubassets.com/images/icons/emoji/unicode/1f947.png",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "测试标题",
+      "slug": "-rjnazq",
+      "body": "测试内容",
+      "createdAt": "2019-05-02T01:38:58.896Z",
+      "updatedAt": "2019-05-02T01:38:58.896Z",
+      "tagList": [],
+      "description": "测试类型",
+      "author": {
+        "username": "carvin_lo",
+        "bio": null,
+        "image": "https://github.githubassets.com/images/icons/emoji/unicode/1f947.png",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "asd",
+      "slug": "asd-dw061s",
+      "body": "asd",
+      "createdAt": "2019-05-02T01:29:11.370Z",
+      "updatedAt": "2019-05-02T01:29:11.370Z",
+      "tagList": [],
+      "description": "asd",
+      "author": {
+        "username": "sdfdffwefqwe",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "Brazil",
+      "slug": "brazil-3em9yf",
+      "body": "# Tanabi\n## Tanabi\n### Tanabi",
+      "createdAt": "2019-05-01T23:55:11.633Z",
+      "updatedAt": "2019-05-01T23:55:48.500Z",
+      "tagList": ["são paulo", "tanabi", "brazil"],
+      "description": "São Paulo",
+      "author": {
+        "username": "matheusfm",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "Hello world",
+      "slug": "hello-world-9lbc8r",
+      "body": "# A Heading\n\nThis article is tagged with foo, bar.",
+      "createdAt": "2019-05-01T23:40:24.389Z",
+      "updatedAt": "2019-05-02T05:05:10.486Z",
+      "tagList": ["baz", "bar", "foo"],
+      "description": "Test article",
+      "author": {
+        "username": "jake5",
+        "bio": "Hello world",
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    }
+  ],
+  "articlesCount": 500
+}

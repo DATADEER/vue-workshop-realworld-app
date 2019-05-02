@@ -6,6 +6,7 @@
         No articles are here... yet.
       </div>
       <RwvArticlePreview
+        data-cy="ArticlePreview"
         v-for="(article, index) in articles"
         :article="article"
         :key="article.title + index"
