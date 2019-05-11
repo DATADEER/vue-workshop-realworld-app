@@ -48,14 +48,21 @@ describe("Home", () => {
 
     cy.get("[data-cy=ArticlePreview]")
       .first()
-      .then(() => {
-        // Inside the "then" callback "cy" refers to the element "then" was called on
-        cy.contains("[data-cy=ArticlePreviewTitle]", "FIRST_PREVIEW_TITLE");
-        cy.contains(
-          "[data-cy=ArticlePreviewDescription]",
-          "FIRST_PREVIEW_DESCRIPTION"
-        );
-        cy.contains("[data-cy=ArticlePreviewAuthor]", "TEST_USER");
-      });
+      .as("firstArticlePreview");
+
+    cy.get("@firstArticlePreview").contains(
+      "[data-cy=ArticlePreviewTitle]",
+      "FIRST_PREVIEW_TITLE"
+    );
+
+    cy.get("@firstArticlePreview").contains(
+      "[data-cy=ArticlePreviewDescription]",
+      "FIRST_PREVIEW_DESCRIPTION"
+    );
+
+    cy.get("@firstArticlePreview").contains(
+      "[data-cy=ArticlePreviewAuthor]",
+      "TEST_USER"
+    );
   });
 });
