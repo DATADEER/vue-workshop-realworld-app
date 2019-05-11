@@ -26,4 +26,7 @@ const app = new Vue({
   render: h => h(App)
 }).$mount("#app");
 
-window.app = app;
+if (window.Cypress) {
+  // only available during E2E tests
+  window.app = app;
+}
