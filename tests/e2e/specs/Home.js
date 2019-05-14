@@ -7,6 +7,7 @@ beforeEach(() => {
 
   cy.fixture("Home/fullTagList.json").as("fullTagListResponse");
   cy.fixture("Home/fullArticleList.json").as("fullArticleListResponse");
+  cy.fixture("Home/favorite.json").as("favoriteResponse");
 
   cy.route({
     method: "GET",
@@ -21,6 +22,13 @@ beforeEach(() => {
     url: "/api/articles?offset=0&limit=10",
     response: "@fullArticleListResponse"
   }).as("fullArticleList");
+
+  cy.route({
+    method: "POST",
+    status: 200,
+    url: "/api/articles/*/favorite",
+    response: "@favoriteResponse"
+  }).as("favorite");
 });
 
 afterEach(() => {
@@ -64,5 +72,25 @@ describe("Home", () => {
       "[data-cy=ArticlePreviewAuthor]",
       "TEST_USER"
     );
+
+    /*
+
+    cy.get("[data-cy=ArticlePreview]")
+      .first()
+      .find("[data-cy=ArticleFavouriteButton]")
+      .as("firstArticleFavouriteButton");
+
+    cy.get("@firstArticleFavouriteButton")
+      .contains(0);
+
+    cy.get("@firstArticleFavouriteButton")
+      .click();
+
+    cy.wait("@favorite");
+
+    cy.get("@firstArticleFavouriteButton")
+      .contains(1);
+
+  */
   });
 });

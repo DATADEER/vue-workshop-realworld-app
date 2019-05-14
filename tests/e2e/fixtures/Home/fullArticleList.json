@@ -2,7 +2,7 @@
   "articles": [
     {
       "title": "FIRST_PREVIEW_TITLE",
-      "slug": "test-title-1egcc5",
+      "slug": "first-preview-slug",
       "body": "FIRST_PREVIEW_DESCRIPTION_BODY",
       "createdAt": "2019-05-02T06:56:30.859Z",
       "updatedAt": "2019-05-02T06:56:30.859Z",
@@ -35,7 +35,7 @@
       "favoritesCount": 1
     },
     {
-      "title": "Vue-Test-Article",
+      "title": "THIRD_PREVIEW_TITLE",
       "slug": "Vue-test-article-yv5gnp",
       "body": "Vue is great",
       "createdAt": "2019-05-02T06:03:40.124Z",
